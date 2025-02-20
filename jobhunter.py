@@ -1,6 +1,7 @@
 # Kaylie Velazquez
 # CNE340 - Winter 2025 - 02/04/2025
-# Description
+# Fetching jobs from a job website posting and adding them to a table that is located in a database.
+# The database remains running and will check for new job postings every 4 hours and add them to the table.
 
 import mysql.connector
 import time
